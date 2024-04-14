@@ -1,0 +1,16 @@
+CREATE DATABASE product;
+
+USE product;
+
+create table productss (
+    pro_num char(5),
+    pro_id char(10) PRIMARY KEY,
+    pro_price int,
+    pro_stk int );
+    
+INSERT INTO productss VALUES
+('1','KWPTP25',330,18),
+('2','KWPTP30',450,30),
+('3','KWPTP45',650,20),
+('4','SSST025',850,10),
+('5','SSST030',350,12);
